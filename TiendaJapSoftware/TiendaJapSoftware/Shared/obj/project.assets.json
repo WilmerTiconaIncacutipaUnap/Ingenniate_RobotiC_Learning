@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
+      "projectUniqueName": "D:\\PROYECTO DISTRIBUIDOS\\TiendaIngeniate\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
       "projectName": "TiendaJapSoftware.Shared",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
+      "projectPath": "D:\\PROYECTO DISTRIBUIDOS\\TiendaIngeniate\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\obj\\",
+      "outputPath": "D:\\PROYECTO DISTRIBUIDOS\\TiendaIngeniate\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

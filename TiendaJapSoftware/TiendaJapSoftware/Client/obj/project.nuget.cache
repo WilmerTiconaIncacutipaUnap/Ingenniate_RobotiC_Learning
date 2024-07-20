@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tWX58YR0bBM=",
+  "dgSpecHash": "O2l+sXLo5lQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj",
+  "projectFilePath": "D:\\PROYECTO DISTRIBUIDOS\\TiendaIngeniate\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\blazored.sessionstorage\\2.2.0\\blazored.sessionstorage.2.2.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",

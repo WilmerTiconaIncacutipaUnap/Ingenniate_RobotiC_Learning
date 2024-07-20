@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CXWSIuroNII=",
+  "dgSpecHash": "XDc7dHexE+g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
+  "projectFilePath": "D:\\PROYECTO DISTRIBUIDOS\\TiendaIngeniate\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\blazored.sessionstorage\\2.2.0\\blazored.sessionstorage.2.2.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
@@ -62,7 +62,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Data.SqlClient' 4.8.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "message": "El paquete \"System.Data.SqlClient\" 4.8.5 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
         "net8.0"
