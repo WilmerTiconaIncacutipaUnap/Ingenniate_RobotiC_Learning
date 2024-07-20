@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TiendaJapSoftware.Server.props" />
+</Project>

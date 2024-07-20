@@ -1,0 +1,11 @@
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net6.0\TiendaJapSoftware.Shared.deps.json
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net6.0\TiendaJapSoftware.Shared.dll
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net6.0\TiendaJapSoftware.Shared.pdb
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net6.0\TiendaJapSoftware.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net6.0\TiendaJapSoftware.Shared.AssemblyInfoInputs.cache
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net6.0\TiendaJapSoftware.Shared.AssemblyInfo.cs
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net6.0\TiendaJapSoftware.Shared.csproj.CoreCompileInputs.cache
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net6.0\TiendaJapSoftware.Shared.dll
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net6.0\ref\TiendaJapSoftware.Shared.dll
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net6.0\TiendaJapSoftware.Shared.pdb
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net6.0\refint\TiendaJapSoftware.Shared.dll

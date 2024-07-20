@@ -1,0 +1,22 @@
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net8.0\TiendaJapSoftware.Shared.deps.json
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net8.0\TiendaJapSoftware.Shared.dll
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net8.0\TiendaJapSoftware.Shared.pdb
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.AssemblyInfoInputs.cache
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.AssemblyInfo.cs
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.csproj.CoreCompileInputs.cache
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.dll
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\refint\TiendaJapSoftware.Shared.dll
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.pdb
+D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\ref\TiendaJapSoftware.Shared.dll
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net8.0\TiendaJapSoftware.Shared.deps.json
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net8.0\TiendaJapSoftware.Shared.dll
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net8.0\TiendaJapSoftware.Shared.pdb
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.AssemblyInfoInputs.cache
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.AssemblyInfo.cs
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.csproj.CoreCompileInputs.cache
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.dll
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\refint\TiendaJapSoftware.Shared.dll
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.pdb
+D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\ref\TiendaJapSoftware.Shared.dll

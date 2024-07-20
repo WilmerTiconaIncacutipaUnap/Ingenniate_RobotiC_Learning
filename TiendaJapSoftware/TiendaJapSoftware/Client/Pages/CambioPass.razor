@@ -1,0 +1,100 @@
+﻿@page "/CambioPass/{i}"
+@inject HttpClient ClienteHttp
+@inject NavigationManager navigationmanager
+@inject ILogger<CambioPass> l;
+@inject IServicesTienda  servicioTienda
+
+<br />
+
+<div class="main">
+    <EditForm Model="@usuarioLogin" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <div>
+            <h3 style="font-weight:bold; color:sienna">Cambio password</h3>
+        </div>
+        <div>
+            <br />
+        </div>
+        <div class="form-group row">
+            <InputText type="password" class="form-control col-12" @bind-Value="usuarioLogin.Password" placeholder="Nueva Password" />
+            <ValidationMessage For="@(() => usuarioLogin.Password)" />
+        </div>
+        <br />
+        <div class="form-group row">
+            <input type="submit" class="form-control col-12 btn btn-primary" value="Cambio pass" @onclick="cambiarPassword" />
+        </div>
+    </EditForm>
+</div>
+
+@if (mostrarError)
+{
+    <DetallesError OnCerrar="@(() => cerrarCapa())" TextoError="@mensajeError"></DetallesError>
+}
+
+@code {
+
+    [Parameter]
+    public string i { get; set; }
+
+    UsuarioLogIn usuarioLogin = new UsuarioLogIn();
+    Boolean mostrarError = false;
+    String mensajeError = String.Empty;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            if (i != String.Empty)
+            {
+                usuarioLogin.EmailLogin = await servicioTienda.DesCifrar(i);
+            }
+        }
+        catch (Exception ex)
+        {
+            l.LogError("Se produjo un error: " + ex.ToString());
+            mensajeError = ex.Message;
+            mostrarError = true;
+        }
+
+    }
+
+    public void HandleValidSubmit()
+    {
+        Console.WriteLine("OnValidSubmit");
+    }
+
+    private async void cambiarPassword()
+    {
+        try
+        {
+            if (usuarioLogin.EmailLogin != null && usuarioLogin.Password != null)
+            {
+                var respuesta = await servicioTienda.CambiarPass(usuarioLogin);
+
+                if (respuesta.IsSuccessStatusCode)
+                {
+                    navigationmanager.NavigateTo("/IniciarSesion", true);
+                }
+                else
+                    throw new Exception("Intentelo de nuevo se produjo un error");
+            }
+            else
+                throw new Exception("Datos inocorrectos");
+        }
+        catch (Exception ex)
+        {
+            l.LogError("Se produjo un error: " + ex.ToString());
+            mostrarError = true;
+        }
+
+    }
+
+
+    private void cerrarCapa()
+    {
+        mostrarError = false;
+    }
+
+
+}

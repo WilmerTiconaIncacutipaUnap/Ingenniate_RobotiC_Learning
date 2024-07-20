@@ -1,0 +1,94 @@
+2021-02-21 11:02:58.2739|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 40
+2021-02-21 11:06:28.8376|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'System.String' requires a key size of at least 'System.Int32' bits. Key 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', is of size: 'System.Int32'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TiendaJapSoftware.Server.Controllers.LoginController.GenerarTokenJWT(UsuarioAPI usuarioInfo) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 108
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 42
+2021-02-21 11:08:37.1015|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'System.String' requires a key size of at least 'System.Int32' bits. Key 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', is of size: 'System.Int32'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TiendaJapSoftware.Server.Controllers.LoginController.GenerarTokenJWT(UsuarioAPI usuarioInfo) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 108
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 42
+2021-02-21 11:11:20.9291|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'System.String' requires a key size of at least 'System.Int32' bits. Key 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey', is of size: 'System.Int32'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TiendaJapSoftware.Server.Controllers.LoginController.GenerarTokenJWT(UsuarioAPI usuarioInfo) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 108
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 42
+2021-02-21 11:14:37.7834|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 12:05:14.7263|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 12:07:25.4245|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 12:07:42.5939|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 19:57:06.0109|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 19:57:45.2576|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 19:58:23.7940|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 19:58:23.7940|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 19:58:29.3981|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 19:58:29.4459|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:01:03.1504|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:01:12.2366|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:13:26.3468|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:13:39.6766|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:14:28.9161|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:14:40.8183|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:15:23.0423|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:31:27.8815|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:31:36.8805|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:33:29.5333|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:33:32.2004|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:34:14.1051|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:40:09.4275|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:40:20.6925|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:40:35.8938|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:40:35.8938|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:42:36.2352|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:42:42.6309|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:46:44.7759|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:46:44.7759|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:58:51.1090|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:58:51.5390|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 20:59:11.1783|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 20:59:11.2132|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:24:36.0623|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 21:24:36.6774|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:29:25.0638|ERROR|TiendaJapSoftware.Server.Controllers.LoginController|Se produjo un error al autenticar en el método LoginSystem.Exception: Credenciales no válidas
+   at TiendaJapSoftware.Server.Controllers.LoginController.Login(LoginAPI usuarioLogin) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\LoginController.cs:line 39
+2021-02-21 21:29:29.3294|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:31:21.1037|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:39:09.0483|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:39:16.2542|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:39:29.8623|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:43:08.2922|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:43:16.1369|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:44:02.1305|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:45:25.7038|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:47:58.9945|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-21 21:48:34.4638|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.

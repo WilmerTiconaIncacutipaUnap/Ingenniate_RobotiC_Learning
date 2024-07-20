@@ -1,0 +1,39 @@
+﻿@page "/CerrarSesion"
+@inject NavigationManager navigationmanager
+@inject AuthenticationStateProvider authenticationStateProvider
+@inject ILogger<LogOut> l;
+
+
+@if (mostrarError)
+{
+    <DetallesError OnCerrar="@(() => cerrarCapa())" TextoError="@mensajeError"></DetallesError>
+}
+
+
+@code {
+
+    Boolean mostrarError = false;
+    String mensajeError = String.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+          
+            ((Autenticacion)authenticationStateProvider).CerrarSesion();
+            navigationmanager.NavigateTo("/");
+        }
+        catch (Exception ex)
+        {
+            mostrarError = true;
+            l.LogError("Se produjo un error: " + ex.ToString());
+           
+        }
+
+    }
+
+    private void cerrarCapa()
+    {
+        mostrarError = false;
+    }
+}

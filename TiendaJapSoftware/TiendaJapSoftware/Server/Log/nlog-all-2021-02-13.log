@@ -1,0 +1,279 @@
+2021-02-13 12:59:23.6379|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en nuestra BBDD :System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 86
+ClientConnectionId:3b200a6f-4ceb-4a69-b002-16b1f506d3e2
+Error Number:50000,State:1,Class:16
+2021-02-13 12:59:29.6853|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en el controlador: System.Exception: Se produjo un error al dar de alta nuestro usuario en nuestra BBDD  : System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 86
+ClientConnectionId:3b200a6f-4ceb-4a69-b002-16b1f506d3e2
+Error Number:50000,State:1,Class:16
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 91
+   at TiendaJapSoftware.Server.Controllers.TiendaController.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 102
+2021-02-13 12:59:39.3361|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-13 18:53:26.5121|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en nuestra BBDD :System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:ff921bbc-6248-4632-9ffd-96e33555a2ed
+Error Number:50000,State:1,Class:16
+2021-02-13 18:53:26.7128|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en el controlador: System.Exception: Se produjo un error al dar de alta nuestro usuario en nuestra BBDD  : System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:ff921bbc-6248-4632-9ffd-96e33555a2ed
+Error Number:50000,State:1,Class:16
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 100
+   at TiendaJapSoftware.Server.Controllers.TiendaController.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 104
+2021-02-13 18:53:28.2821|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-13 20:02:35.9418|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en nuestra BBDD :System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:d43e76f2-dcf8-4db7-b8b2-0b847a28bd19
+Error Number:50000,State:1,Class:16
+2021-02-13 20:02:38.0910|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en el controlador: System.Exception: Se produjo un error al dar de alta nuestro usuario en nuestra BBDD  : System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:d43e76f2-dcf8-4db7-b8b2-0b847a28bd19
+Error Number:50000,State:1,Class:16
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 100
+   at TiendaJapSoftware.Server.Controllers.TiendaController.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 104
+2021-02-13 20:02:38.5517|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-13 20:05:43.1085|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en nuestra BBDD :System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:8f21a67f-1443-47f5-9183-43cbe2c0b6f8
+Error Number:50000,State:1,Class:16
+2021-02-13 20:05:43.2120|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en el controlador: System.Exception: Se produjo un error al dar de alta nuestro usuario en nuestra BBDD  : System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:8f21a67f-1443-47f5-9183-43cbe2c0b6f8
+Error Number:50000,State:1,Class:16
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 100
+   at TiendaJapSoftware.Server.Controllers.TiendaController.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 104
+2021-02-13 20:05:44.5174|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-13 20:07:36.4225|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en nuestra BBDD :System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:a5246a61-fb9d-4cd0-b911-825e83bb97a7
+Error Number:50000,State:1,Class:16
+2021-02-13 20:07:36.5255|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en el controlador: System.Exception: Se produjo un error al dar de alta nuestro usuario en nuestra BBDD  : System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:a5246a61-fb9d-4cd0-b911-825e83bb97a7
+Error Number:50000,State:1,Class:16
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 100
+   at TiendaJapSoftware.Server.Controllers.TiendaController.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 104
+2021-02-13 20:07:37.5597|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-13 20:12:56.1319|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en nuestra BBDD :System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:58f6cd4f-f308-459a-b08c-32942692535d
+Error Number:50000,State:1,Class:16
+2021-02-13 20:12:56.2577|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en el controlador: System.Exception: Se produjo un error al dar de alta nuestro usuario en nuestra BBDD  : System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:58f6cd4f-f308-459a-b08c-32942692535d
+Error Number:50000,State:1,Class:16
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 100
+   at TiendaJapSoftware.Server.Controllers.TiendaController.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 104
+2021-02-13 20:12:57.4262|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-13 20:16:20.7617|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en nuestra BBDD :System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:bab36adb-be1d-4239-9633-37379f5c0083
+Error Number:50000,State:1,Class:16
+2021-02-13 20:16:20.8854|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en el controlador: System.Exception: Se produjo un error al dar de alta nuestro usuario en nuestra BBDD  : System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:bab36adb-be1d-4239-9633-37379f5c0083
+Error Number:50000,State:1,Class:16
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 100
+   at TiendaJapSoftware.Server.Controllers.TiendaController.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 104
+2021-02-13 20:16:23.2648|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-13 20:35:19.1188|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en nuestra BBDD :System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:7819d0b1-c26c-4d68-9047-846bd22d05c6
+Error Number:50000,State:1,Class:16
+2021-02-13 20:35:19.4187|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en el controlador: System.Exception: Se produjo un error al dar de alta nuestro usuario en nuestra BBDD  : System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:7819d0b1-c26c-4d68-9047-846bd22d05c6
+Error Number:50000,State:1,Class:16
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 100
+   at TiendaJapSoftware.Server.Controllers.TiendaController.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 104
+2021-02-13 20:35:55.5228|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-13 20:38:42.1889|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en nuestra BBDD :System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:9b4e1b69-c766-42b0-ad78-55fcaf3dfb00
+Error Number:50000,State:1,Class:16
+2021-02-13 20:38:42.4710|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al dar de alta nuestro usuario en el controlador: System.Exception: Se produjo un error al dar de alta nuestro usuario en nuestra BBDD  : System.Data.SqlClient.SqlException (0x80131904): El usuario especificado ya existe japsoftware@gmail.com
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteNonQuery(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 95
+ClientConnectionId:9b4e1b69-c766-42b0-ad78-55fcaf3dfb00
+Error Number:50000,State:1,Class:16
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 100
+   at TiendaJapSoftware.Server.Controllers.TiendaController.AltaUsuario(Usuario u) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 104
+2021-02-13 20:38:44.4724|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.

@@ -1,0 +1,19 @@
+2021-02-22 15:53:16.6387|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-22 15:56:08.0020|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-22 16:03:39.9160|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-22 16:05:03.3598|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-22 16:35:32.7256|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-22 16:37:14.7058|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-22 16:37:32.7358|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-22 16:38:08.1937|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-22 16:38:20.0646|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-22 21:58:46.3800|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al cargar los datos de este usuario en el controlador: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.DameCursos(Int32 idUsuario) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 359
+   at TiendaJapSoftware.Server.Controllers.TiendaController.DameCursosUsuario(Int32 idUsuario) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 216
+2021-02-22 21:58:46.6725|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2021-02-22 21:59:23.9704|ERROR|TiendaJapSoftware.Server.Repositorio.RepositorioGeneral|Se produjo un error al cargar los datos de este usuario en el controlador: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at TiendaJapSoftware.Server.Repositorio.RepositorioGeneral.DameCursos(Int32 idUsuario) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Repositorio\RepositorioGeneral.cs:line 359
+   at TiendaJapSoftware.Server.Controllers.TiendaController.DameCursosUsuario(Int32 idUsuario) in D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Server\Controllers\TiendaController.cs:line 216
+2021-02-22 21:59:24.0165|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.

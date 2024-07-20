@@ -1,0 +1,83 @@
+﻿@page "/MisCursos"
+@inject NavigationManager navigationManager
+@inject HttpClient ClienteHttp
+@inject AuthenticationStateProvider authenticationStateProvider
+@inject ILogger<MisCursos> l;
+@inject IServicesTienda  servicioTienda
+<br />
+<div class="main">
+    <AuthorizeView>
+        <Authorized>
+
+            @if (resultado == null || resultado.Count == 0)
+            {
+                <p class="text-danger">No te has inscrito en nigún curso de los disponibles</p>
+            }
+            else
+            {
+                <table class="table">
+                    <tbody>
+                        @foreach (Curso c in resultado)
+                        {
+                            <tr>
+                                <td>
+                                    <img src="/css/@c.RutaImagen" alt="@c.NombreCurso" width="300" height="168">
+                                    <strong>@c.NombreCurso</strong>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            }
+        </Authorized>
+        <NotAuthorized>
+            No Autorizado
+        </NotAuthorized>
+    </AuthorizeView>
+</div>
+
+@if (mostrarError)
+{
+    <DetallesError OnCerrar="@(() => cerrarCapa())" TextoError="@mensajeError"></DetallesError>
+}
+
+@code
+{
+    Usuario u = new Usuario();
+    List<Curso> resultado = new List<Curso>();
+    Boolean mostrarError = false;
+    String mensajeError = String.Empty;
+
+    protected async override Task OnInitializedAsync()
+    {
+        try
+        {
+
+            var estadoAutenticaion = await authenticationStateProvider.GetAuthenticationStateAsync();
+            var user = estadoAutenticaion.User;
+            if (user.Identity.IsAuthenticated)
+            {
+
+                u = await servicioTienda.DatosUsaurio(user.Identity.Name);
+                resultado = await servicioTienda.DameCursosUsuario(u);
+                StateHasChanged();
+            }
+        }
+        catch (Exception ex)
+        {
+            l.LogError("Se produjo un error: " + ex.ToString());
+            mostrarError = true;
+            StateHasChanged();
+        }
+    }
+
+
+    private void cerrarCapa()
+    {
+        mostrarError = false;
+    }
+
+
+}
+}

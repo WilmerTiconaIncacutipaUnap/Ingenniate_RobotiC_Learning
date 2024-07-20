@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = TiendaJapSoftware.Client
+build_property.RootNamespace = TiendaJapSoftware.Client
+build_property.ProjectDir = D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Videos\Ejemplos codigo\TiendaJapSoftware\TiendaJapSoftware\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Pages/AltaUsuario.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWx0YVVzdWFyaW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Pages/CambioPass.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FtYmlvUGFzcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Pages/ConfirmacionAlta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZmlybWFjaW9uQWx0YS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Pages/LogIn.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nSW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Pages/LogOut.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nT3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Pages/MisCursos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlzQ3Vyc29zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Shared/CursoAgregado.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEN1cnNvQWdyZWdhZG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Shared/DetallesCurso.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERldGFsbGVzQ3Vyc28ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Shared/DetallesError.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERldGFsbGVzRXJyb3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Shared/RecordarPass.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlY29yZGFyUGFzcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Videos/Ejemplos codigo/TiendaJapSoftware/TiendaJapSoftware/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-u5jvss0ju8

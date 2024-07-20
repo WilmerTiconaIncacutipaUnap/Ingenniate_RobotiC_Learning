@@ -1,0 +1,190 @@
+﻿@page "/IniciarSesion"
+@inject HttpClient ClienteHttp
+@inject ISessionStorageService almacenarSesion
+@inject NavigationManager navigationmanager
+@inject AuthenticationStateProvider authenticationStateProvider
+@inject ILogger<LogIn> l;
+@inject IConfiguration Configuration
+@inject IServicesTienda servicioTienda
+<br />
+<div class="container h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-12 col-md-6 col-lg-4">
+            <EditForm Model="@usuarioLogin" OnValidSubmit="HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <div>
+                    <h3 class="text-center" style="font-weight:bold; color:sienna">Iniciar Sesión</h3>
+                </div>
+                <div class="form-group">
+                    <InputText class="form-control" @bind-Value="usuarioLogin.EmailLogin" placeholder="Email" />
+                    <ValidationMessage For="@(() => usuarioLogin.EmailLogin)" />
+                </div>
+                <br />
+                <div class="form-group">
+                    <InputText type="password" class="form-control" @bind-Value="usuarioLogin.Password" placeholder="Password" />
+                    <ValidationMessage For="@(() => usuarioLogin.Password)" />
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" class="form-control btn btn-primary" value="Login" @onclick="ValidarUsuario" />
+                </div>
+                <div class="form-group">
+                    <a href="/AltaUsuario" class="form-control btn btn-info">Darse de alta</a>
+                </div>
+            </EditForm>
+            <div class="form-group">
+                <input type="submit" class="form-control btn btn-warning" value="Recuperar password" @onclick="RecuperarPass" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@if (mostrarError)
+{
+    <DetallesError OnCerrar="@(() => cerrarCapa())" TextoError="@mensajeError"></DetallesError>
+}
+
+@if (mostraCapaPass)
+{
+    <RecordarPass OnCambiarPassword="cambiarPass" OnCerrar="cerrarCapaPass"
+                  valorActual="@textoAux" CambioTexto="cambioTexto" url="@urlResultado"></RecordarPass>
+
+}
+
+
+@code {
+
+    UsuarioLogIn usuarioLogin = new UsuarioLogIn();
+    Boolean mostrarError = false;
+    String mensajeError = String.Empty;
+    Boolean mostraCapaPass = false;
+    Usuario usuarioAux;
+    String textoAux = String.Empty;
+    String urlResultado = String.Empty;
+
+
+    public void HandleValidSubmit()
+    {
+        Console.WriteLine("OnValidSubmit");
+    }
+
+    protected async override Task OnInitializedAsync()
+    {
+        try
+        {
+            var estadoAutenticaion = await authenticationStateProvider.GetAuthenticationStateAsync();
+            var user = estadoAutenticaion.User;
+            if (user.Identity.IsAuthenticated)
+            {
+                StateHasChanged();
+                navigationmanager.NavigateTo("/MisCursos");
+            }
+        }
+        catch (Exception ex)
+        {
+            l.LogError("Se produjo un error: " + ex.ToString());
+            mostrarError = true;
+        }
+    }
+
+    private async void ValidarUsuario()
+    {
+        try
+        {
+            if (usuarioLogin.EmailLogin != null && usuarioLogin.Password != null)
+            {
+
+                var respuesta = await servicioTienda.ValidarUsuario(usuarioLogin);
+
+                if (respuesta.IsSuccessStatusCode)
+                {
+
+                    UsuarioLogIn usuarioLogInRespuesta = await respuesta.Content.ReadFromJsonAsync<UsuarioLogIn>();
+                    if (usuarioLogInRespuesta.error == null || usuarioLogInRespuesta.error.mensaje == String.Empty)
+                    {
+                        await almacenarSesion.SetItemAsync("email", usuarioLogin.EmailLogin);
+                        navigationmanager.NavigateTo("/MisCursos", true);
+                    }
+                    else
+                    {
+                        if (usuarioLogInRespuesta.error.mostrarEnPantalla)
+                        {
+                            mostrarError = true;
+                            mensajeError = usuarioLogInRespuesta.error.mensaje;
+                            StateHasChanged();
+
+                        }
+                        else
+                        {
+                            l.LogError("Se produjo un error: " + usuarioLogInRespuesta.error.mensaje);
+                            throw new Exception("Intentelo de nuevo se produjo un error");
+                        }
+                    }
+                }
+                else
+                    throw new Exception("Intentelo de nuevo se produjo un error");
+            }
+        }
+        catch (Exception ex)
+        {
+            l.LogError("Se produjo un error: " + ex.ToString());
+            mostrarError = true;
+        }
+    }
+
+    private void cerrarCapa()
+    {
+        mostrarError = false;
+    }
+
+
+    private void RecuperarPass()
+    {
+        textoAux = String.Empty;
+        mostraCapaPass = true;
+    }
+
+    private void cerrarCapaPass()
+    {
+        mostraCapaPass = false;
+    }
+
+    private void cambioTexto(string e)
+    {
+        textoAux = e;
+    }
+
+
+    private async void cambiarPass()
+    {
+        try
+        {
+            if (textoAux == String.Empty)
+                textoAux = "No especificado";
+            //Validamos que el email introducido existe en nuestro sistema. No agregamos el token porque ya lo
+            // tenemos incrustado
+            usuarioAux = await servicioTienda.DatosUsaurio(textoAux);
+            if (usuarioAux.error == null)
+            {
+                string parametro = await servicioTienda.Cifrar(textoAux);
+                urlResultado = "https://localhost:44312/CambioPass/" + parametro;
+                StateHasChanged();
+            }
+            else
+                servicioTienda.comprobarError(usuarioAux.error);
+        }
+        catch (Exception ex)
+        {
+            l.LogError("Se produjo un error: " + ex.ToString());
+            mostrarError = true;
+            StateHasChanged();
+        }
+
+
+    }
+
+
+
+}

@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\obj\\Debug\\net6.0\\build-gz\\bznGKTvn.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TiendaJapSoftware.Client.styles.css",
+      "PackagePath": "staticwebassets\\TiendaJapSoftware.Client.styles.css"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoBlazor.jpg",
+      "PackagePath": "staticwebassets\\css\\imagenes\\CursoBlazor.jpg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoBlazorApiRest.jpg",
+      "PackagePath": "staticwebassets\\css\\imagenes\\CursoBlazorApiRest.jpg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoPython.jpg",
+      "PackagePath": "staticwebassets\\css\\imagenes\\CursoPython.jpg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoSQLServer.jpg",
+      "PackagePath": "staticwebassets\\css\\imagenes\\CursoSQLServer.jpg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursocCSharp.jpg",
+      "PackagePath": "staticwebassets\\css\\imagenes\\CursocCSharp.jpg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\Login.svg",
+      "PackagePath": "staticwebassets\\css\\imagenes\\Login.svg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\Logo.png",
+      "PackagePath": "staticwebassets\\css\\imagenes\\Logo.png"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\biblioteca.svg",
+      "PackagePath": "staticwebassets\\css\\imagenes\\biblioteca.svg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\files.svg",
+      "PackagePath": "staticwebassets\\css\\imagenes\\files.svg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\logout.svg",
+      "PackagePath": "staticwebassets\\css\\imagenes\\logout.svg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\nuevoUsuario.svg",
+      "PackagePath": "staticwebassets\\css\\imagenes\\nuevoUsuario.svg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Videos\\Ejemplos codigo\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TiendaJapSoftware.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TiendaJapSoftware.Client.props",
+      "PackagePath": "build\\TiendaJapSoftware.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TiendaJapSoftware.Client.props",
+      "PackagePath": "buildMultiTargeting\\TiendaJapSoftware.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TiendaJapSoftware.Client.props",
+      "PackagePath": "buildTransitive\\TiendaJapSoftware.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

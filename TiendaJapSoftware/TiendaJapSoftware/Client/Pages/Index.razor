@@ -1,0 +1,235 @@
+﻿@page "/"
+@inject HttpClient ClienteHttp
+@inject NavigationManager navigationManager
+@inject AuthenticationStateProvider authenticationStateProvider
+@inject ILogger<Index> l;
+@inject IServicesTienda  servicioTienda
+
+<br />
+<div class="main">
+    <div class="card-columns">
+        @foreach (var c in resultado)
+        {
+
+            <div class="card" style="cursor:pointer;" @onclick="@(()=>mostrarCapaDetalle(c))">
+                <div class="card-header font-weight-bold bg-light justify-content-center">@c.NombreCurso</div>
+                <img class="card-img" src="/css/@c.RutaImagen">
+                <div class="card-img-overlay">
+                    <div class="link d-flex">
+                        <span class="precio">@c.Precio.PrecioVenta.ToString() €</span>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@if (mostrarCapaPedido)
+{
+    <div class="modal bg-secondary" tabindex="-1" style="display:block;" role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg ">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h2>Tu pedido</h2>
+                    <buton class="btn btn-success" style="cursor:pointer" @onclick="ocultarCapaTotal">Seguir comprando</buton>
+                </div>
+                <div class="row">
+                    <div class="pedido-contenido">
+                        @foreach (var cursoAux in cursosSeleccionados)
+                        {
+                            <CursoAgregado Curso="cursoAux"
+                                           OnBorrar="@(() => eliminarCurso(cursoAux))" />
+                        }
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="pedido-contenido">
+                        <div class="totalCarrito">
+                            <div class="texto">
+                                <strong>Total:@Math.Round(importeTotal, 2).ToString() €</strong>
+                                <button class="btn btn-success" @onclick="guardarPedido">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@if (capaVisible)
+{
+    <DetallesCurso curso="cursoCapa" OnCancelar="cancelarDialogo"
+                   OnAgregar="agregarDialogo">
+    </DetallesCurso>
+}
+
+@if (pedidoEfectuado)
+{
+    <div class="modal bg-secondary" tabindex="-1" style="display:block;" role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg ">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h2>Datos pedido</h2>
+                </div>
+                <div class="row">
+                    <div class="pedido-contenido">
+                        Puedes consultar los cursos contrados en el apartado
+                        <buton class="btn btn-dark" style="cursor:pointer" @onclick="NavegarMisCursos">Mis cursos</buton>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+}
+
+@if (mostrarError)
+{
+    <DetallesError OnCerrar="@(() => cerrarCapa())" TextoError="@mensajeError"></DetallesError>
+}
+
+@code
+{
+    List<Curso> resultado = new List<Curso>();
+    bool capaVisible;
+    Curso cursoCapa;
+    List<Curso> cursosSeleccionados = new List<Curso>();
+    double importeTotal = 0;
+    bool mostrarCapaPedido = false;
+    bool pedidoEfectuado = false;
+    Usuario u = new Usuario();
+    Boolean mostrarError = false;
+    String mensajeError = String.Empty;
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        try
+        {
+
+
+            var estadoAutenticaion = await authenticationStateProvider.GetAuthenticationStateAsync();
+            var user = estadoAutenticaion.User;
+            if (user.Identity.IsAuthenticated)
+            {
+
+                u = await servicioTienda.DatosUsaurio(user.Identity.Name);
+                servicioTienda.comprobarError(u.error);
+                resultado = await servicioTienda.DameCursos(user.Identity.Name);
+
+                if (resultado.Count > 0)
+                    servicioTienda.comprobarError(resultado[0].error);
+
+                StateHasChanged();
+            }
+            else
+            {
+               
+                resultado = await servicioTienda.DameCursos();
+                if (resultado.Count > 0)
+                    servicioTienda.comprobarError(resultado[0].error);
+
+                StateHasChanged();
+            }
+        }
+        catch (Exception ex)
+        {
+            l.LogError("Se produjo un error: " + ex.ToString());
+            mostrarError = true;
+            StateHasChanged();
+        }
+
+    }
+
+    private void mostrarCapaDetalle(Curso c)
+    {
+        cursoCapa = c;
+        capaVisible = true;
+    }
+
+    void cancelarDialogo()
+    {
+        capaVisible = false;
+    }
+
+    void agregarDialogo()
+    {
+        if (!cursosSeleccionados.Contains(cursoCapa))
+        {
+            Curso aux = new Curso();
+            aux = cursoCapa;
+            cursosSeleccionados.Add(aux);
+            capaVisible = false;
+            resultado.Remove(aux);
+            importeTotal = importeTotal + aux.Precio.PrecioVenta;
+            mostrarCapaPedido = true;
+
+        }
+
+    }
+
+    void eliminarCurso(Curso c)
+    {
+        cursosSeleccionados.Remove(c);
+        resultado.Add(c);
+        importeTotal = importeTotal - c.Precio.PrecioVenta;
+        if (cursosSeleccionados.Count == 0)
+            mostrarCapaPedido = false;
+    }
+
+    void ocultarCapaTotal()
+    {
+        if (resultado.Count > 0)
+            mostrarCapaPedido = false;
+
+    }
+
+    async void guardarPedido()
+    {
+        try
+        {
+
+            if (u.Email == null)
+                navigationManager.NavigateTo("/IniciarSesion");
+            else
+            {
+                u.ListaCursos = cursosSeleccionados;
+
+                var respuesta = await servicioTienda.GuardarCursos(u);
+
+                if (respuesta.IsSuccessStatusCode)
+                {
+                    Usuario usuarioRespuesta = await respuesta.Content.ReadFromJsonAsync<Usuario>();
+                    servicioTienda.comprobarError(u.error);
+                    pedidoEfectuado = true;
+                    StateHasChanged();
+
+                }
+                else
+                    throw new Exception("Intentelo de nuevo se produjo un error");
+            }
+        }
+        catch (Exception ex)
+        {
+            l.LogError("Se produjo un error: " + ex.ToString());
+            mostrarError = true;
+        }
+    }
+
+    protected void NavegarMisCursos()
+    {
+        navigationManager.NavigateTo("/MisCursos");
+    }
+
+    private void cerrarCapa()
+    {
+        mostrarError = false;
+    }
+
+
+}
+
+
+
+

@@ -1,0 +1,55 @@
+﻿@page "/ConfirmarAlta/{i}"
+@inject NavigationManager navigationmanager
+@inject AuthenticationStateProvider authenticationStateProvider
+@inject HttpClient ClienteHttp
+@inject ILogger<ConfirmacionAlta> l;
+@inject IServicesTienda  servicioTienda
+
+
+@if (mostrarError)
+{
+    <DetallesError OnCerrar="@(() => cerrarCapa())" TextoError="@mensajeError"></DetallesError>
+}
+
+
+
+@code {
+
+    [Parameter]
+    public string i { get; set; }
+
+    String mensajeError = String.Empty;
+
+    Boolean mostrarError = false;
+
+    protected async override Task OnInitializedAsync()
+    {
+        try
+        {
+
+
+
+            var respuesta = await servicioTienda.ConfirmarAlta(i);
+
+            if (respuesta.IsSuccessStatusCode)
+            {
+                navigationmanager.NavigateTo("/IniciarSesion", true);
+            }
+            else
+                throw new Exception("Intentelo de nuevo se produjo error al validar el usuario");
+
+        }
+        catch (Exception ex)
+        {
+            l.LogError("Se produjo un error: " + ex.ToString());
+            mostrarError = true;
+        }
+    }
+
+
+
+    private void cerrarCapa()
+    {
+        mostrarError = false;
+    }
+}
