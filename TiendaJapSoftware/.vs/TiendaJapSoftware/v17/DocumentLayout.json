@@ -1,33 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|d:\\estadistica e informatica 2024-vii\\sistemas distribuidos\\tiendajapsoftware\\tiendajapsoftware\\client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|solutionrelative:tiendajapsoftware\\client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|d:\\estadistica e informatica 2024-vii\\sistemas distribuidos\\tiendajapsoftware\\tiendajapsoftware\\client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|solutionrelative:tiendajapsoftware\\client\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|d:\\estadistica e informatica 2024-vii\\sistemas distribuidos\\tiendajapsoftware\\tiendajapsoftware\\client\\pages\\altausuario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FF258D1A-5DEB-4DB1-A4F6-99932F878108}|TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF258D1A-5DEB-4DB1-A4F6-99932F878108}|TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj|solutionrelative:tiendajapsoftware\\server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF258D1A-5DEB-4DB1-A4F6-99932F878108}|TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF258D1A-5DEB-4DB1-A4F6-99932F878108}|TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj|solutionrelative:tiendajapsoftware\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\client\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|solutionrelative:tiendajapsoftware\\client\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\client\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|solutionrelative:tiendajapsoftware\\client\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|solutionrelative:tiendajapsoftware\\client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\client\\pages\\confirmacionalta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|solutionrelative:tiendajapsoftware\\client\\pages\\confirmacionalta.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\client\\pages\\altausuario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|solutionrelative:tiendajapsoftware\\client\\pages\\altausuario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|d:\\estadistica e informatica 2024-vii\\sistemas distribuidos\\tiendajapsoftware\\tiendajapsoftware\\client\\tiendajapsoftware.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|solutionrelative:tiendajapsoftware\\client\\tiendajapsoftware.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|solutionrelative:tiendajapsoftware\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF258D1A-5DEB-4DB1-A4F6-99932F878108}|TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj|d:\\estadistica e informatica 2024-vii\\sistemas distribuidos\\tiendajapsoftware\\tiendajapsoftware\\server\\tiendajapsoftware.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{FF258D1A-5DEB-4DB1-A4F6-99932F878108}|TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\server\\tiendajapsoftware.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FF258D1A-5DEB-4DB1-A4F6-99932F878108}|TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj|solutionrelative:tiendajapsoftware\\server\\tiendajapsoftware.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43B5C434-132A-4C09-8270-90A16FE8D37E}|TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj|d:\\estadistica e informatica 2024-vii\\sistemas distribuidos\\tiendajapsoftware\\tiendajapsoftware\\shared\\tiendajapsoftware.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{43B5C434-132A-4C09-8270-90A16FE8D37E}|TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\shared\\tiendajapsoftware.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{43B5C434-132A-4C09-8270-90A16FE8D37E}|TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj|solutionrelative:tiendajapsoftware\\shared\\tiendajapsoftware.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|d:\\estadistica e informatica 2024-vii\\sistemas distribuidos\\tiendajapsoftware\\tiendajapsoftware\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|c:\\users\\hp\\desktop\\proyect_tienda\\proyect-tienda\\ingenniate_robotic_learning\\tiendajapsoftware\\tiendajapsoftware\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C728E13-4834-405B-98B2-D5ADCDF95B1B}|TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj|solutionrelative:tiendajapsoftware\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,112 +62,166 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         },
         {
           "DockedWidth": 475,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "TiendaJapSoftware\\Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\appsettings.json",
+              "RelativeToolTip": "TiendaJapSoftware\\Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-20T19:53:00.44Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "TiendaJapSoftware\\Client\\wwwroot\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "TiendaJapSoftware\\Client\\wwwroot\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-20T19:52:27.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TiendaJapSoftware\\Client\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TiendaJapSoftware\\Client\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-20T19:51:59.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConfirmacionAlta.razor",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\ConfirmacionAlta.razor",
+              "RelativeDocumentMoniker": "TiendaJapSoftware\\Client\\Pages\\ConfirmacionAlta.razor",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\ConfirmacionAlta.razor",
+              "RelativeToolTip": "TiendaJapSoftware\\Client\\Pages\\ConfirmacionAlta.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T19:41:15.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "TiendaJapSoftware\\Client\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\Index.razor",
+              "RelativeToolTip": "TiendaJapSoftware\\Client\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T19:40:57.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "LogIn.razor",
-              "DocumentMoniker": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\LogIn.razor",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\LogIn.razor",
               "RelativeDocumentMoniker": "TiendaJapSoftware\\Client\\Pages\\LogIn.razor",
-              "ToolTip": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\LogIn.razor",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\LogIn.razor",
               "RelativeToolTip": "TiendaJapSoftware\\Client\\Pages\\LogIn.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "ViewState": "AQIAAHYAAAAAAAAAAAApwIQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-20T15:25:54.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TiendaJapSoftware\\Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\appsettings.Development.json",
+              "RelativeToolTip": "TiendaJapSoftware\\Server\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-20T20:01:17.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AltaUsuario.razor",
-              "DocumentMoniker": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\AltaUsuario.razor",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\AltaUsuario.razor",
               "RelativeDocumentMoniker": "TiendaJapSoftware\\Client\\Pages\\AltaUsuario.razor",
-              "ToolTip": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\AltaUsuario.razor",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Pages\\AltaUsuario.razor",
               "RelativeToolTip": "TiendaJapSoftware\\Client\\Pages\\AltaUsuario.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-20T15:25:54.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "index.html",
-              "DocumentMoniker": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\index.html",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "TiendaJapSoftware\\Client\\wwwroot\\index.html",
-              "ToolTip": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\index.html",
               "RelativeToolTip": "TiendaJapSoftware\\Client\\wwwroot\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "ViewState": "AQIAAAkAAABgZmZmZmYkwAgAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-07-20T15:38:02.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Program.cs",
               "RelativeDocumentMoniker": "TiendaJapSoftware\\Client\\Program.cs",
-              "ToolTip": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\Program.cs",
               "RelativeToolTip": "TiendaJapSoftware\\Client\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T15:18:21.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T15:18:21.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "TiendaJapSoftware.Shared.csproj",
-              "DocumentMoniker": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
               "RelativeDocumentMoniker": "TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
-              "ToolTip": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
               "RelativeToolTip": "TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-20T15:18:22.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T15:18:22.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TiendaJapSoftware.Client.csproj",
-              "DocumentMoniker": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj",
-              "RelativeDocumentMoniker": "TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj",
-              "ToolTip": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj",
-              "RelativeToolTip": "TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-20T15:18:23.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "TiendaJapSoftware.Server.csproj",
-              "DocumentMoniker": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
               "RelativeDocumentMoniker": "TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
-              "ToolTip": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
               "RelativeToolTip": "TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-20T15:18:23.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T15:18:23.707Z"
             }
           ]
         }

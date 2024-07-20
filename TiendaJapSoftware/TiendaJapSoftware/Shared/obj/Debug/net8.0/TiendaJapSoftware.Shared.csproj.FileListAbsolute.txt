@@ -20,3 +20,15 @@ D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\Ti
 D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\refint\TiendaJapSoftware.Shared.dll
 D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.pdb
 D:\ESTADISTICA E INFORMATICA 2024-VII\SISTEMAS DISTRIBUIDOS\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\ref\TiendaJapSoftware.Shared.dll
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net8.0\TiendaJapSoftware.Shared.deps.json
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net8.0\TiendaJapSoftware.Shared.dll
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\bin\Debug\net8.0\TiendaJapSoftware.Shared.pdb
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.AssemblyInfo.cs
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.sourcelink.json
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.dll
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\refint\TiendaJapSoftware.Shared.dll
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\TiendaJapSoftware.Shared.pdb
+C:\Users\HP\Desktop\Proyect_tienda\PROYECT-TIENDA\Ingenniate_RobotiC_Learning\TiendaJapSoftware\TiendaJapSoftware\Shared\obj\Debug\net8.0\ref\TiendaJapSoftware.Shared.dll

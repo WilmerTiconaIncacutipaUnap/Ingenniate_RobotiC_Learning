@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj": {}
   },
   "projects": {
-    "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj": {
+    "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj",
         "projectName": "TiendaJapSoftware.Client",
-        "projectPath": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj",
-        "packagesPath": "C:\\Users\\WILL\\.nuget\\packages\\",
-        "outputPath": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\WILL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj": {
-                "projectPath": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj"
+              "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj"
               }
             }
           }
@@ -123,20 +123,20 @@
         }
       }
     },
-    "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj": {
+    "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
         "projectName": "TiendaJapSoftware.Shared",
-        "projectPath": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
-        "packagesPath": "C:\\Users\\WILL\\.nuget\\packages\\",
-        "outputPath": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\WILL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -1,119 +1,119 @@
 {
   "Files": [
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\obj\\Debug\\net8.0\\compressed\\uur3ymoq25.gz",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\obj\\Debug\\net8.0\\compressed\\loq732dkop.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TiendaJapSoftware.Client.styles.css",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TiendaJapSoftware.Client.styles.css",
       "PackagePath": "staticwebassets\\TiendaJapSoftware.Client.styles.css"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\appsettings.json",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoBlazor.jpg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoBlazor.jpg",
       "PackagePath": "staticwebassets\\css\\imagenes\\CursoBlazor.jpg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoBlazorApiRest.jpg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoBlazorApiRest.jpg",
       "PackagePath": "staticwebassets\\css\\imagenes\\CursoBlazorApiRest.jpg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoPython.jpg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoPython.jpg",
       "PackagePath": "staticwebassets\\css\\imagenes\\CursoPython.jpg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoSQLServer.jpg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursoSQLServer.jpg",
       "PackagePath": "staticwebassets\\css\\imagenes\\CursoSQLServer.jpg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursocCSharp.jpg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\CursocCSharp.jpg",
       "PackagePath": "staticwebassets\\css\\imagenes\\CursocCSharp.jpg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\Login.svg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\Login.svg",
       "PackagePath": "staticwebassets\\css\\imagenes\\Login.svg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\Logo.png",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\Logo.png",
       "PackagePath": "staticwebassets\\css\\imagenes\\Logo.png"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\biblioteca.svg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\biblioteca.svg",
       "PackagePath": "staticwebassets\\css\\imagenes\\biblioteca.svg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\files.svg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\files.svg",
       "PackagePath": "staticwebassets\\css\\imagenes\\files.svg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\logout.svg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\logout.svg",
       "PackagePath": "staticwebassets\\css\\imagenes\\logout.svg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\nuevoUsuario.svg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\imagenes\\nuevoUsuario.svg",
       "PackagePath": "staticwebassets\\css\\imagenes\\nuevoUsuario.svg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\index.html",
+      "Id": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

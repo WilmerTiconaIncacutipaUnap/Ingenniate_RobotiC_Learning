@@ -2412,23 +2412,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\WILL\\.nuget\\packages\\": {},
+    "C:\\Users\\HP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
       "projectName": "TiendaJapSoftware.Server",
-      "projectPath": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
-      "packagesPath": "C:\\Users\\WILL\\.nuget\\packages\\",
-      "outputPath": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\obj\\",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\TiendaJapSoftware.Server.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\WILL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2444,11 +2444,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj": {
-              "projectPath": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj"
+            "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Client\\TiendaJapSoftware.Client.csproj"
             },
-            "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj": {
-              "projectPath": "D:\\ESTADISTICA E INFORMATICA 2024-VII\\SISTEMAS DISTRIBUIDOS\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj"
+            "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj": {
+              "projectPath": "C:\\Users\\HP\\Desktop\\Proyect_tienda\\PROYECT-TIENDA\\Ingenniate_RobotiC_Learning\\TiendaJapSoftware\\TiendaJapSoftware\\Shared\\TiendaJapSoftware.Shared.csproj"
             }
           }
         }
@@ -2513,7 +2513,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"System.Data.SqlClient\" 4.8.5 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "message": "Package 'System.Data.SqlClient' 4.8.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
         "net8.0"

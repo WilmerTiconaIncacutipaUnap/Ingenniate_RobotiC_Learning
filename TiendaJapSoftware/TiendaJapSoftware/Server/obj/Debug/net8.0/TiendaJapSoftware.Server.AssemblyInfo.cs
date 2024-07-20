@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TiendaJapSoftware.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5cc123979e14e8c29d9fb8d2d24bf45c0836a6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d21806a0d07ddcd554c4f3965d9d1ee38f729ed1")]
 [assembly: System.Reflection.AssemblyProductAttribute("TiendaJapSoftware.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TiendaJapSoftware.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

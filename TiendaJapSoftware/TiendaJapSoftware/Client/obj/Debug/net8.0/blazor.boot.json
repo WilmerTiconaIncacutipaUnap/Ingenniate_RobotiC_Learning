@@ -1,12 +1,12 @@
 {
   "mainAssemblyName": "TiendaJapSoftware.Client",
   "resources": {
-    "hash": "sha256-oUBIG6AwqBHkQKDP2wogcvV26aIY4lQFapuDtQLNQ7c=",
+    "hash": "sha256-UX9t/n72kCv5QeBYnL3C3gxc4YDBgJ+M3TdYI7hiEcc=",
     "jsModuleNative": {
-      "dotnet.native.8.0.7.n6sftmrv9e.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
+      "dotnet.native.8.0.7.gm1pr1sntc.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.7.5a1zejul14.js": "sha256-soZyw6XWXOLKhA26AOyzSpCP5cAsw1wvhdPHSYNTMfQ="
+      "dotnet.runtime.8.0.7.aimqiqwihs.js": "sha256-soZyw6XWXOLKhA26AOyzSpCP5cAsw1wvhdPHSYNTMfQ="
     },
     "wasmNative": {
       "dotnet.native.wasm": "sha256-ApuqKsuYqEC0ZTUIUV5mIV1IIRYYCwmOiB912jgs8CQ="
@@ -213,12 +213,12 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "TiendaJapSoftware.Shared.wasm": "sha256-fqAFYrZpBiI6RnqwTfy8PODp6luqfWHXj1BlYck2wjM=",
-      "TiendaJapSoftware.Client.wasm": "sha256-5stg+GICBhTvfP18Ax6neW4G6d+GFrmJ13AlGg+M4jg="
+      "TiendaJapSoftware.Shared.wasm": "sha256-5c3E3KzyDZlxiPdjOms8dX8dIIHZczH7ufCY688lTvI=",
+      "TiendaJapSoftware.Client.wasm": "sha256-r4FNGET2rJI4Lie2LM59k2PuU0kBzDed8sXo5Nwoa3A="
     },
     "pdb": {
-      "TiendaJapSoftware.Shared.pdb": "sha256-SoZ5v3JGuXCAKHESS4ACh7TlfO/qGlvpsAh02kYPsck=",
-      "TiendaJapSoftware.Client.pdb": "sha256-1VA4hRlvxXAjkdL0Mjvl739j6ql4qe5cgpSBVTEwKrE="
+      "TiendaJapSoftware.Shared.pdb": "sha256-++rT2+J6F985M39n6+8EfCFluzy6QCy/UX7vlNKojU4=",
+      "TiendaJapSoftware.Client.pdb": "sha256-qw46cFW/4LqvUjxzwiHDd6PUlzCJCXgIT99sAKYlXyM="
     }
   },
   "cacheBootResources": true,
